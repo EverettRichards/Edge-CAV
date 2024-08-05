@@ -1,0 +1,108 @@
+{
+    "submission_interval": 0.5,
+    "capture_interval": 0.1,
+    "use_updated_client_method": true,
+    "show_verbose": false,
+    "do_rapidly_turn": false,
+    "detect_objects": false,
+    "detect_plates": true,
+
+    "max_decision_history": 200,
+
+    "horizontal_FOV": 62.2,
+    "vertical_FOV": 48.8,
+
+    "angle_threshold": 5.0,
+
+    "image_width": 640,
+    "image_height": 480,
+
+    "empty_parking_spot_locations": [
+        {"x":9.5,"y":14},
+        {"x":13.0,"y":14},
+        {"x":16.5,"y":14},
+        {"x":20.0,"y":14},
+
+        {"x":9.5,"y":44},
+        {"x":13.0,"y":44},
+        {"x":16.5,"y":44},
+        {"x":20.0,"y":44}
+    ],
+
+    "occupied_parking_spot_locations": [
+        {"x":9.5,"y":18},
+        {"x":13.0,"y":18},
+        {"x":16.5,"y":18},
+        {"x":20.0,"y":18},
+
+        {"x":9.5,"y":40},
+        {"x":13.0,"y":40},
+        {"x":16.5,"y":40},
+        {"x":20.0,"y":40}
+    ],
+
+    "true_parking_occupants": [
+        "EMPTY",
+        "EMPTY",
+        "EMPTY",
+        "EMPTY",
+        "EMPTY",
+        "EMPTY",
+        "EMPTY",
+        "EMPTY"
+    ],
+
+    "object_locations": {
+        "ball": {
+            "identities": ["vase", "sports ball"],
+            "x": 10,
+            "y": 27
+        },
+        "cup": {
+            "identities": ["cup"],
+            "x": 1.0,
+            "y": 2.0
+        },
+        "mouse": {
+            "identities": ["mouse"],
+            "x": 1.0,
+            "y": 2.0
+        }
+    },
+
+    "vehicle_locations": {
+
+        "euclid": {
+            "name": "euclid",
+            "x": 6,
+            "y": 24,
+            "car_angle": 0,
+            "camera_angle": 57
+        },
+
+        "watson": {
+            "name": "watson",
+            "x": 10,
+            "y": 34,
+            "car_angle": 180,
+            "camera_angle": 90
+        },
+
+        "riemann": {
+            "name": "riemann",
+            "x": 24,
+            "y": 34,
+            "car_angle": 180,
+            "camera_angle": 52
+        },
+
+        "galileo": {
+            "name": "galileo",
+            "x": 18,
+            "y": 24,
+            "car_angle": 0,
+            "camera_angle": 90
+        }
+
+    }
+}
